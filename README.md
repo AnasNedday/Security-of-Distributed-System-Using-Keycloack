@@ -35,7 +35,7 @@ Enter myrealm in the Realm name field.
 
 Click Create.
 
-![Realme Screen](screen/newrealme.png)
+![Realme Screen](screen/newrealm.png)
 
 ---
 #####  Create a user
