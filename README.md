@@ -8,7 +8,7 @@ From a terminal, enter the following command to start Keycloak:
 ```sh
 $ docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:23.0.0 start-dev
 ```
-<img src="screen/Pull">
+![Pull](screen/Pull.png)
 
 This command starts Keycloak exposed on the local port 8080 and creates an initial admin user with the username admin and password admin.
 
@@ -16,9 +16,11 @@ This command starts Keycloak exposed on the local port 8080 and creates an initi
 ##### Log in to the Admin Console:
 
 1-Go to the Keycloak Admin Console on localhost:8080
-<img src="screen/login">
+![Login Screen](screen/login.png)
 2-Log in with the username and password you created earlier.
-<img src="screen/Console">
+
+![Console](screen/Console.png)
+
 ---
 ##### Create a realm :
 A realm in Keycloak is equivalent to a tenant. Each realm allows an administrator to create isolated groups of applications and users. Initially, Keycloak includes a single realm, called master. Use this realm only for managing Keycloak and not for managing any applications.
@@ -33,7 +35,7 @@ Enter myrealm in the Realm name field.
 
 Click Create.
 
-<img src="screen/new realm">
+![Realme Screen](screen/newrealme.png)
 
 ---
 #####  Create a user
@@ -57,7 +59,7 @@ Last name: any last name
 
 8-Click Create.
 
-<img src="screen/CreateUser">
+![User](screen/createUser.png)
 
 This user needs a password to log in. To set the initial password:
 
@@ -67,7 +69,7 @@ This user needs a password to log in. To set the initial password:
 
 Toggle Temporary to Off so that the user does not need to update this password at the first login.
 
-<img src="screen/SetPassword">
+![Password Screen](screen/SetPassword.png)
 
 ---
 #####  Create Client : Secure the first application
@@ -83,7 +85,7 @@ Toggle Temporary to Off so that the user does not need to update this password a
 client type: OpenID Connect
 client ID : wallet-client
 
-<img src="screen/Client">
+![ClientScreen](screen/Client.png)
 7-Click Next
 
 8-Confirm that Standard flow is enabled.
@@ -97,5 +99,5 @@ client ID : wallet-client
 12-Set Home Url to https://www.localhost:4200/
 
 13-Click Save.
-<img src="screen/ClientCre">
+![ClientCre Screen](screen/ClientCre.png)
 
