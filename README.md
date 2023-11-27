@@ -1,4 +1,4 @@
-#Security-of-Distributed-System-Using-Keycloack : 
+# Security-of-Distributed-System-Using-Keycloack : 
 ---
 #### Downloading Keycloack Image : 
 from https://www.keycloak.org/getting-started/getting-started-docker
@@ -51,7 +51,7 @@ Click Create.
 
 6-Fill in the form with the following values:
 
-7-Username: nedday
+7-Username: user1
 
 First name: any first name
 
