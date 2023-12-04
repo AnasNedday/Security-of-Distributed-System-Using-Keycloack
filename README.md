@@ -101,3 +101,11 @@ client ID : wallet-client
 13-Click Save.
 ![ClientCre Screen](screen/ClientCre.png)
 
+##Postman for testing : 
+![Postman](screen/Postman.png)
+#### TOKEN : 
+#### OPEN ID CONNECT : 
+![openIdConnect](screen/openIdConnect.png)
+
+![Token](screen/TokenPostman.png)
+
